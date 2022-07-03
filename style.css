@@ -1,7 +1,53 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
+section {
+    display: flex;
+    min-height: 100vh;
+    padding: 0 5%;
+}
+
+.hero-section {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.hero-section h1 {
     font-size: 50px;
+}
+
+.w-50 {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.hero-section img,
+.big-dream img {
+    padding-top: 40px;
+    width: 80%;
+}
+
+.hire-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: #fff;
+    background-image: linear-gradient(#cc2b5e, #753a88);
+    margin-top: 20px;
+}
+
+.hire-btn:hover {
+    background-image: linear-gradient(#753a88, #cc2b5e);
+}
+.big-dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.big-dream h1 {
+    font-size: 40px;
 }
